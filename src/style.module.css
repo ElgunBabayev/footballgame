@@ -1,0 +1,39 @@
+.stadium {
+  background-color: #1FC506;
+  width: 700px;
+  border-color: black;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.leftbasket{
+width: 40px;
+height: 256px;
+background-color: rgb(65, 65, 65);
+
+}
+.rightbasket{
+  width: 40px;
+height: 256px;
+background-color: rgb(65, 65, 65);
+}
+.ball{
+  border-radius: 50%;
+  background-color: coral;
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgb(218, 0, 0);
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -50%);  
+}
+.ground{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
