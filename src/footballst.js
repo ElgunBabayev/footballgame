@@ -43,7 +43,7 @@ function Footballst() {
     }
     if(ball.x >= 95){
       sethome(home += 1);
-      setballpos({x:50});
+      setballpos({x:50,y:50});
     }
     
   }
@@ -56,7 +56,7 @@ function Footballst() {
     }
     if(ball.x <= 5){
       setopponent(opponent += 1);
-      setballpos({x:50});
+      setballpos({x:50,y:50});
     }  
   }
 
